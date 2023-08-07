@@ -1,6 +1,8 @@
 //BRUTE FORCE APPROACH
 // TIME COMPLEXITY - O(N^2)
 // SPACE COMPLEXITY - O(1)
+class Solution {
+public:
 vector<int> twoSum(vector<int>& nums, int target)
     {
         vector<int>a;
@@ -18,6 +20,7 @@ vector<int> twoSum(vector<int>& nums, int target)
         }
         return a;
     }
+}
 
 //OPTIMAL APPROACH -- USING UNORDERED MAPS
 // TIME COMPLEXITY - O(N)
